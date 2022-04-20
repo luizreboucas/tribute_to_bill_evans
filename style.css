@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+body{
+    font-family: 'Sora', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+img{
+    margin-top: 30px;
+    display: block;
+    max-width: 700px;
+    max-height: 700px;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    background-color: aliceblue;
+    border-radius: 30px;
+    padding: 4%;
+}
+#title{
+   font-family: 'Sora', sans-serif;
+   font-weight: 800;
+   font-size: 300%;
+   color: rgb(74, 74, 74);
+}
+#img-caption{
+    font-size: 70%;
+    margin-top: 5px;
+    margin-bottom: 27px;
+    color: rgb(74, 74, 74);
+}
+a{
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+    font-weight: 520;
+
+}
